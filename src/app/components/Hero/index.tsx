@@ -73,7 +73,7 @@ const Banner: React.FC<BannerProps> = ({ page }) => {
       break;
     
     default:
-      src = "/Images/hero.jpg";
+      src = "/Images/hero31.jpg";
       alt = "Default Banner";
   }
 
