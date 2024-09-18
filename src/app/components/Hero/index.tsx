@@ -28,7 +28,7 @@ const Banner: React.FC<BannerProps> = ({ page }) => {
   
   switch (page) {
     case "home":
-      src = "/Images/hero31.jpg";
+      src = "/images/hero31.jpg";
       alt = "Home Banner";
       imageClass = "h-screen object-cover md:h-[calc(100vh-80px)]";
       bannerContent = (
@@ -73,7 +73,7 @@ const Banner: React.FC<BannerProps> = ({ page }) => {
       break;
     
     default:
-      src = "/Images/hero31.jpg";
+      src = "/images/hero31.jpg";
       alt = "Default Banner";
   }
 
